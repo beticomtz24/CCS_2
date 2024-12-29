@@ -1,0 +1,44 @@
+/*Selector de clase*/
+
+.importante {
+    color: blue;
+}
+
+/*Selector de ID (Identificador), en CSS lo invocamos con -> # <- */
+
+#pie{
+    background-color: brown;
+    color: antiquewhite;
+}
+
+.exito{
+    background-color: rgb(25, 145, 51);
+    color: rgb(255, 255, 255);
+    /* Para poner border, debemos poner grosos, tipo y color*/
+    border: 1px solid rgb(0, 255, 76);
+
+}
+
+.advertencia{
+    background-color: rgb(243, 215, 8);
+    color: rgb(0, 0, 0);
+    /* Para poner border, debemos poner grosos, tipo y color*/
+    border: 1px solid rgb(238, 255, 0);
+
+}
+
+.error{
+    background-color: red;
+    color: white;
+    /* Para poner border, debemos poner grosos, tipo y color*/
+    border: 1px solid blue;
+    border-radius: 10px;
+    padding: 15px;
+
+}
+
+.caja{
+    border-radius: 50px;
+    padding: 20px;
+
+}
