@@ -10,6 +10,7 @@
     background-color: brown;
     color: antiquewhite;
 }
+/*Selector de Clase*/
 
 .exito{
     background-color: rgb(25, 145, 51);
@@ -40,5 +41,16 @@
 .caja{
     border-radius: 50px;
     padding: 20px;
+    margin: 30px;
 
+}
+
+.tacto:hover{
+    background-color: rgb(255, 0, 136);
+}
+
+/*Selector de atributo*/
+
+[type="email"], [type="text"]{
+    border-color: blue;
 }
